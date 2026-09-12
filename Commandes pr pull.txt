@@ -1,0 +1,11 @@
+// quand nouveau truc update par le proff
+
+git switch main
+git fetch upstream
+git merge upstream/main
+git push origin main
+
+//puis bring to ma branch
+
+git switch semester_work
+git merge main
